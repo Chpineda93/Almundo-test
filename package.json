@@ -1,0 +1,27 @@
+{
+  "name": "hotel_project",
+  "version": "1.0.0",
+  "description": "Solucion de ejercicio propuesto para el problema propuesto por almundo en su proceso de evaluacion de candidatos",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "knex": "knex"
+  },
+  "author": "Christian Felipe Pineda Cano",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "gridfs-stream": "^1.1.1",
+    "knex": "^0.20.7",
+    "mongoose": "^5.8.3",
+    "request": "^2.88.0",
+    "sqlite3": "^4.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

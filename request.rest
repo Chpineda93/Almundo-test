@@ -1,0 +1,11 @@
+POST http://localhost:3000/hotels
+Content-Type: application/json
+
+{
+"search": "prueba"
+}
+
+
+###
+
+GET http://localhost:3000/hotels/2
